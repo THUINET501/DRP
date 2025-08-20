@@ -38,8 +38,6 @@ If you use this code or the DRP method in your research, please cite:
 }
 ```
 
-The complete BibTeX entry is also available in `导出的条目.bib` in the repository.
-
 ## Repository layout (important files)
 
 - `DRP.py`               — Main script (kept for compatibility)
@@ -47,11 +45,11 @@ The complete BibTeX entry is also available in `导出的条目.bib` in the repo
 - `torch_radon/`         — Radon transform utilities (external package expected)
 - `data_input/`          — Example input phantom(s) (do not include private data)
 - `data_results/`        — Output directory for reconstructions and metrics
-- `environment_drp_win.yml` — Suggested Conda environment (Windows)
+- `environment_drp_win.yml` — Suggested Conda environment (Windows or Linux)
 
 ## Installation (recommended)
 
-We recommend creating an isolated Conda environment on Windows. Example steps (cmd.exe):
+We recommend creating an isolated Conda environment on Windows or Linux. Example steps (cmd.exe):
 
 ```bat
 conda create -n drp python=3.9 -y
