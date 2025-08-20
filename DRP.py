@@ -20,7 +20,7 @@ def get_args():
     parser.add_argument('--output', type=str, default='./data_results/phantom-60/', help='Output directory')
     parser.add_argument('--n_angles', type=int, default=60, help='Number of projection angles')
     parser.add_argument('--detector_count', type=int, default=729, help='Detector count')
-    parser.add_argument('--epochs', type=int, default=150, help='Number of outer epochs')
+    parser.add_argument('--epochs', type=int, default=250, help='Number of outer epochs')
     parser.add_argument('--iters', type=int, default=200, help='Number of inner iterations')
     parser.add_argument('--lr', type=float, default=5e-4, help='Learning rate')
     parser.add_argument('--weight_p', type=float, default=0.8, help='Weight p for input update')
